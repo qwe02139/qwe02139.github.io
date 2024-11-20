@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Noto+Sans+TC:wght@100..900&display=swap');
 body    {
     color:#15E14F;
     background-color: #2E8B49;
     font-size: 20px;
-    font-family: "標楷體", "微軟正黑體",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 300;
+    font-style: normal; 
 }
