@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Noto+Sans+TC:wght@100..900&display=swap');
+/* 預設空白 5px*/
+*{
+   padding: 5px;
+   margin: 5px;
+}
+
+html{border: #73573E 1px solid;} 
 body    {
     color:#423932;
     background-color: #EAE9E6;
@@ -6,11 +13,25 @@ body    {
     font-family: "LXGW WenKai Mono TC", monospace;
     font-weight: 300;
     font-style: normal;
+    border: #735733 1px dashed;
 }
 header , footer{
     background-color: #EBECB2;
     color:#1C1302 ;
+    border-top:  #f7d5b8 1px solid;
+    border-left: #f7d5b8 1px solid ;
+    border-bottom: #3d2f22 4px solid ;
+    border-right: #3d2f22 6px solid ;
+    border-radius: 15px;
 }
+
+header ul{
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    line-height: 100px;
+}
+
 header a{
     color: #73573E;
     text-decoration: none;
@@ -24,7 +45,7 @@ header a:hover{
 header li{
   font-weight: 700;
   display: inline;
-  margin-right: 1.2rem;
+  margin-right: 0rem;
 }
 
 img:hover{
